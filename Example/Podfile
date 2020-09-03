@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BeautyMineMoudle_Example' do
+  pod 'BeautyMineMoudle', :path => '../'
+
+  target 'BeautyMineMoudle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
