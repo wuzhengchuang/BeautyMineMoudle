@@ -1,0 +1,6 @@
+framework module BeautyMineMoudle {
+  umbrella header "BeautyMineMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

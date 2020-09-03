@@ -1,0 +1,28 @@
+{
+  "name": "BeautyMineMoudle",
+  "version": "0.0.1",
+  "summary": "美颜我的",
+  "description": "TODO: 美颜我的模块",
+  "homepage": "https://github.com/wuzhengchuang/BeautyMineMoudle.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1244775319@qq.com": "1244775319@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wuzhengchuang/BeautyMineMoudle.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BeautyMineMoudle/Classes/**/*",
+  "dependencies": {
+    "BeautyCommonUIMoudle": [
+
+    ]
+  },
+  "prefix_header_contents": "#import \"Toast.h\""
+}

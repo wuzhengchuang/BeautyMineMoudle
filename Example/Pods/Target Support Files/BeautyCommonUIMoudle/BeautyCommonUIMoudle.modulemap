@@ -1,0 +1,6 @@
+framework module BeautyCommonUIMoudle {
+  umbrella header "BeautyCommonUIMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

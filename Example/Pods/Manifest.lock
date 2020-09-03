@@ -1,0 +1,32 @@
+PODS:
+  - BeautyCommonUIMoudle (0.0.1):
+    - BeautyMacroMoudle
+    - Masonry
+  - BeautyMacroMoudle (0.0.1)
+  - BeautyMineMoudle (0.0.1):
+    - BeautyCommonUIMoudle
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BeautyMineMoudle (from `../`)
+
+SPEC REPOS:
+  https://github.com/wuzhengchuang/BeautySpec.git:
+    - BeautyCommonUIMoudle
+    - BeautyMacroMoudle
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  BeautyMineMoudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeautyCommonUIMoudle: 2f474928633ee38575d7932f18262383aeda5b8e
+  BeautyMacroMoudle: 1a246db590c654ca6d2e4a6fc91830cf334674bb
+  BeautyMineMoudle: f3787ccb9bfefe9e38360f4cbdde8378665b6d7b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 6ee79bb5eeb2106d8a0e424de4ead4fb606ce5d2
+
+COCOAPODS: 1.9.2
